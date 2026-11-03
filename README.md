@@ -10,7 +10,7 @@ Currently looking for entry-level and junior software engineering roles across C
 
 ## Featured projects
 
-- **[banking-platform](https://github.com/Maxencejules/banking-platform)**: full-stack digital banking platform built with Spring Boot 4 (Java 21) and Angular 21. Immutable ledger, idempotent transfers, JWT auth, concurrency-safe balance changes.
+- **[banking-platform](https://github.com/Maxencejules/banking-platform)**: Four simultaneous $25 requests, one transfer. See the failing test and the fix. Spring Boot 4 (Java 21), Angular 21 and PostgreSQL. [Failing test](https://github.com/Maxencejules/banking-platform/actions/runs/36652794015/job/109690529192) · [Fix and tradeoff](https://github.com/Maxencejules/banking-platform/pull/3) · [Passing CI](https://github.com/Maxencejules/banking-platform/actions/runs/36655367122) · [Runnable demo](https://github.com/Maxencejules/banking-platform/blob/master/scripts/demo_api.py)
 - **[fraud_detection](https://github.com/Maxencejules/fraud_detection)**: streaming fraud-detection system that scores card transactions as they happen, end to end.
 - **[Rugo](https://github.com/Maxencejules/Rugo)**: x86-64 hybrid OS with a Rust no_std kernel and Go user-space services, built with contract-first milestones and deterministic test gates.
 - **[dispatch-engine](https://github.com/Maxencejules/dispatch-engine)**: backend dispatch microservice using FastAPI and Postgres, with scoring-based courier matching and transactional idempotent assignments.
